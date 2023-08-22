@@ -73,5 +73,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ![image](https://github.com/sonaliraut-29/tdd-login/assets/142888865/8db03623-be6f-4b78-aa86-6e7de0432e1a)
 
 ### Test Coverage
-![image](https://github.com/sonaliraut-29/tdd-login/assets/142888865/c912d35a-fd28-4348-a359-50c27ba8ed57)
+![image](https://github.com/sonaliraut-29/tdd-login/assets/142888865/5c606a73-5f82-4891-a465-93a52387a00c)
+
 
