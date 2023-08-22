@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> Should render the app login view 1`] = `
+<div
+  class="App"
+  data-testid="app"
+>
+  <div
+    class="form_logo"
+  >
+    Lo
+    <span>
+      g
+    </span>
+    o
+  </div>
+  <div
+    class="form_title"
+  >
+    Log
+    <span>
+      I
+    </span>
+    n
+  </div>
+  <div
+    class="input-container"
+    data-testid="input-username"
+  >
+    <input
+      data-testid="input-email"
+      placeholder="Username"
+      type="text"
+      value=""
+    />
+    <i
+      class="zmdi zmdi-account zmdi-hc-lg"
+    />
+  </div>
+  <div
+    class="input-container"
+  >
+    <input
+      data-testid="input-password"
+      placeholder="Password"
+      type="password"
+      value=""
+    />
+    <i
+      class="zmdi zmdi-lock zmdi-hc-lg"
+    />
+  </div>
+  <button
+    data-testid="login-button"
+    type="button"
+  >
+    Log In
+  </button>
+</div>
+`;
