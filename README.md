@@ -68,3 +68,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Login Page
+![Screenshot from 2023-08-22 15-26-20](https://github.com/sonaliraut-29/tdd-login/assets/142888865/3a3f6cea-991f-4561-9b4d-c38024700843)
+
+### Coverage
+![image](https://github.com/sonaliraut-29/tdd-login/assets/142888865/cc788ff6-4550-4da3-bb71-fadb29d51bdc)
+
+### Steps to install or config jest
+.babelrc
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": []
+}
+npm install @babel/preset-react --save-dev
+
+inside package.json
+{
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
+
+npm install babel-jest --save-dev
+
+npm install -D jest-environment-jsdom
+
+npm i --save-dev identity-obj-proxy
