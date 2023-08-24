@@ -24,7 +24,7 @@ body {
 
 .App {
   background: #27282d;
-  height: 340px;
+  height: 450px;
   width: 520px;
   margin: 0 auto;
   border-radius: 5px;
@@ -143,4 +143,8 @@ button:hover {
 .form_title span {
   color: #f44336;
   color: var(--primary-color);
+}
+
+.error {
+  color: red;
 }
