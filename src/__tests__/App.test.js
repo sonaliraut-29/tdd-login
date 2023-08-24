@@ -141,7 +141,7 @@ describe("<App />", () => {
     fireEvent.click(loginBtn);
   });
 
-  it("should be able to get error if request fails", async () => {
+  it("should be able to get success if request success", async () => {
     const responseData = { token: "yourAccessToken" };
     mockAxios.onPost("/api/login").reply(200, responseData);
 
